@@ -1,0 +1,309 @@
+/**********************GLOBAL*********************/
+
+.top-section{
+    background-color: #5a0314;
+    height: 559px;
+    padding-top: 170px;
+}
+
+
+
+/*****************************************************/
+
+.slajd1{
+    padding: 300px 0 ;
+    background-image: url('../rotator.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.slider1-title{
+    background: rgba(90, 4, 20, 0.9);
+    width: 260px;
+}
+
+.slajd1, .slajd2 {
+    text-shadow: 2px 2px 1px rgba(6, 6, 6, 0.8);
+}
+
+.slajd2{
+    padding: 300px 0 ;
+    background-image: url('../img/rezerwacja.jpeg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.slajd1 .top-button{
+    margin-top: 2rem;
+}
+
+.slajd2 .top-button{
+    margin-bottom: 2rem;
+}
+
+.top-button{
+    padding: 0.5rem 5rem;
+}
+
+/** Poznaj nas **/
+.onas{
+    line-height: 1.75rem;
+}
+
+/** Cytat **/
+.cytat{
+    background-image: url(../cytat.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.cytat .container h2 {
+    padding: 130px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+/** Dlaczego my **/
+
+.sub-title{
+    height: 108px;
+    position: relative;
+    text-align: center;
+    background: url("../title-bg-2.png") no-repeat center;
+    display: inline-block;
+}
+
+.sub-title strong {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    color: #252525;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+    margin-bottom: 12px;
+    padding-top: 20px;
+}
+
+.whyus{
+    height: 70px;
+    width: 110px;
+    margin: 35px 0;
+    position: relative;
+    display: inline-block;
+    color: #FFF;
+    background: #ffc107 ;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.whyus::before {
+    content: "";
+    border-bottom: 25px solid #ffc107 ;
+    border-left: 55px solid rgba(0, 0, 0, 0);
+    border-right: 55px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+
+.whyus::after {
+    content: "";
+    border-top: 25px solid #ffc107 ;
+    border-left:55px solid rgba(0, 0, 0, 0);
+    border-right: 55px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
+
+.whyus_h4{
+    font-weight: 600;
+}
+
+/** Aktualności **/
+.news{
+    background-color: #f5f5f5;
+}
+
+.img-aktualnosci{
+    max-width: 100%;
+    height: 300px;
+}
+
+.card-body-aktualnosci{
+    height: 250px;
+}
+
+
+/** Opinie klientów **/
+.testimonial {
+    padding: 100px 0;
+    background-image: url('../img/pexels-photo-949586.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 1px rgba(6, 6, 6, 0.5);
+}
+
+.testimonial h2{
+    font-weight: bold;
+}
+
+/** Footer**/
+
+.footer{
+    background-color: #161616;
+}
+
+.list-start li{
+    line-height:2.2rem;
+}
+
+.copyright{
+    background-color: #0b0b0b; 
+}
+
+
+/********** Menu header **********/
+
+/**header**/
+
+.menu-header{
+    background-image: url(../img/menu-header.jpg);
+    height: 559px;
+    padding-top: 170px;
+}
+
+.btn-header-menu{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 50px;
+    border: 2px solid #f4d8a5;
+}
+
+.btn-header-menu:hover{
+    background-color: #5a0314;
+}
+
+.menu_cart{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.menu_two, .menu_three, .menu_four{
+    display: none;
+}
+
+.menu_cart li {
+    position: relative;
+    padding-left: 18px;
+}
+
+.menu_cart li::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #f4d8a5;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+
+/********** Oferta **********/
+
+/**Top**/
+.oferta-top{
+    background-image: url(../img/bg-top-oferta.jpg);
+    height: 559px;
+    padding-top: 170px
+}
+
+/*
+.wesela-text{
+    width: 470px;
+    float: right;
+    overflow: hidden;
+}*/
+
+
+.oferta-height{
+    height: 559px;
+}
+
+.szef-section{
+    background-image: url(../img/szef-kuchni.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wesela-section{
+    background-image: url(../img/wesela.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pensjonat-section{
+    background-image: url(../img/pensjonatspac.jpg);
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.konferencje-section{
+    background-image: url(../img/konferencje.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;  
+}
+
+.atrakcje-section{
+    background-image: url(../img/atrakcje.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+/** Kontakt **/
+.kontakt-header{
+    background-image: url(../img/bg-top-kontakt.jpg);
+    height: 559px;
+    padding-top: 170px;
+}
+
+
+.kontakt input, .kontakt textarea{
+    border: 1px solid #ffc107;
+}
+
+.btn-kontakt{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/** Blog **/
+.img-blog{
+    width: 100%;
+    height: 300px;
+}
+
+.aktualnosci-card{
+    height: 500px;
+}
+
+.page-blog{
+    background-color: #f6f6f6;
+}
+
+.list-start a{
+    color: white;
+}
+
+.cpo{
+    cursor: pointer;
+}
+
+/****** media queries ***********/
+@media only screen and (max-width: 992px) {
+    .me-menuheader{
+        height: 620px!important;
+    }
+}

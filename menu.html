@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Dom Weselny</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script type="application/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-light navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <a href="#" class="navbar-brand">Dwór Kamionacz</a>
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="oferta.html" class="nav-item nav-link">Oferta</a>
+                    <a href="menu.html" class="nav-item nav-link text-warning">Menu</a>
+                    <a href="aktualnosci.html" class="nav-item nav-link">Aktualności</a>
+                    <a href="kontakt.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <section class="menu-header me-menuheader">
+        <div class="container">
+            <div class="mb-5 menu-top-header">
+                <h1 class="text-white"><strong>Menu</strong></h1>
+                <h4 class="text-warning">DOPASUJ MENU DO SWOICH POTRZEB</h4>
+            </div>
+            <div class="menu-top-header-submenu">
+                <ul class="list-unstyled">
+                    <li class="btn text-white mx-2 btn-header-menu cpo" onclick="oneMenu()"><span class="text-warning">190</span> PLN</li>
+                    <li class="btn text-white mx-2 btn-header-menu cpo" onclick="twoMenu()"><span class="text-warning">220</span> PLN</li>
+                    <li class="btn text-white mx-2 btn-header-menu cpo" onclick="threeMenu()"><span class="text-warning">250</span> PLN</li>
+                </ul>
+                <ul class="list-unstyled mt-2">
+                    <li class="btn text-white mx-2 btn-header-menu cpo" onclick="fourMenu()"><span class="text-warning">Imprezy</span> <br class="d-block d-lg-none" />okolicznościowe</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menu 190zł -->
+    <section id="menuone" class="menu_one">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1 class="text-center sub-title"><strong>Menu 190zł</strong></h1>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania gorące</h3>
+                    <h5>Zupy (dwie do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>domowy rosół z kluseczkami i aromatyczna natką</li>
+                        <li>krem z pieczarek z łazankami</li>
+                        <li>wykwintny krem z pomidorów z groszkiem ptysiowym i puszystą śmietanką</li>
+                        <li>flaczki z kurczaka</li>
+                        <li>krem z zielonego groszku z grzankami</li>
+                        <li>krem z brokułów</li>
+                    </ul>
+                    <h5>Drugie danie do wyboru<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>pierś z kurczaka z lekkim sosem śmietanowym</li>
+                        <li>filet z indyka z musem jabłkowym</li>
+                        <li>pierś z kurczaka otulona boczkiem</li>
+                        <li>faszerowane udo z kurczaka</li>
+                        <li>schab pieczony z aromatycznym sosem pieczarkowym</li>
+                        <li>karkówka z wyrazistym sosem chrzanowym</li>
+                        <li>schab środkowy z nadzieniem śliwkowym</li>
+                        <li>wieprzowina szpikowana wędzonką</li>
+                        <li>sznycel wieprzowy zapieczony z serem</li>
+                    </ul>
+                    <h5>Trzecie danie do wyboru<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>gulasz z indyka z warzywami w sosie pomidorowym</li>
+                        <li>kurczak orientalny</li>
+                        <li>kurczak w piwie</li>
+                        <li>bogracz wieprzowy z kluseczkami</li>
+                        <li>zupa gulaszowa</li>
+                        <li>schab z kiełkami w czerwonym winie</li>
+                        <li>kurczak w sosie curry</li>
+                    </ul>
+                    <h5>Czwarte danie do wyboru<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>barszcz czerwony z pasztecikami</li>
+                        <li>barszcz czerwony z pierogami z mięsem</li>
+                        <li>żurek z jajkiem i białą kiełbasą</li>
+                    </ul>
+                    <h5>Dodatki do drugiego dania<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>ziemniaki z wody</li>
+                        <li>ziemniaki zapiekane</li>
+                        <li>purre ziemniaczane</li>
+                        <li>ryż</li>
+                    </ul>
+                    <h5>Surówki<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>wiosenna z sosem vinegret</li>
+                        <li>z kapusty pekińskiej</li>
+                        <li>z czerwonych buraków</li>
+                        <li>marchewka z groszkiem zasmażana</li>
+                        <li>buraczki na ciepło</li>
+                        <li>warzywa z wody</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania zimne</h3>
+                    <h5>Dwie sałatki do wyboru<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>tradycyjna z zielonym groszkiem</li>
+                        <li>grecka</li>
+                        <li>caprese z aromatyczną bazylią</li>
+                        <li>mix sałat z prażonymi pestkami dyni i ziołami</li>
+                        <li>brokułowa z żółtym serem o lekkim smaku czosnkowym</li>
+                        <li>z kurczakiem grillowanym na sałacie lodowej</li>
+                        <li>prima z wyrazistym selerem marynowanym i ananasem</li>
+                    </ul>
+                    <h5>Galarety (jedna do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>roladki z szynki z nadzieniem chrzanowym lub serowym</li>
+                        <li>kieszonki schabowe z nadzieniem chrzanowo – jajecznym</li>
+                        <li>schab z owocami</li>
+                        <li>szynka pieczona z żurawiną</li>
+                        <li>teryna z kurczaka</li>
+                        <li>rolada z indyka</li>
+                    </ul>
+                    <h5>Śledzie (dwa rodzaje do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>po węgiersku</li>
+                        <li>tradycyjny</li>
+                        <li>po kaszubsku</li>
+                        <li>w śmietanie</li>
+                        <li>w pierzynie</li>
+                    </ul>
+                    <h5>Zimne przekąski (wszystkie)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>półmisek wędlin i mięs pieczystych</li>
+                        <li>piramidki drobiowe z zielonym groszkiem</li>
+                        <li>rolada z wędzonego łososia ze szpinakiem</li>
+                        <li>jaja faszerowane</li>
+                        <li>warzywa zielone</li>
+                        <li>marynaty</li>
+                        <li>pieczywo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- Menu 220zł -->
+    <section id="menutwo" class="menu_two">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1 class="text-center sub-title"><strong>Menu 220zł</strong></h1>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania gorące</h3>
+                    <h5>Zupy (dwie do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>flaki staropolskie</li>
+                        <li>rosół domowy z kluseczkami i aromatyczną natką</li>
+                        <li>krem z grzybów leśnych z łazankami, lub groszkiem ptysiowym i bitą śmietaną</li>
+                        <li>francuska zupa cebulowa z paluszkiem serowym</li>
+                        <li>krem z zielonego groszku z grzankami i bitą śmietaną</li>
+                        <li>wykwintny krem z pomidorów z groszkiem ptysiowym i puszystą śmietanką</li>
+                        <li>krem z brokułów z grzankami czosnkowymi</li>
+                    </ul>
+                    <h5>Drugie danie (do wyboru><span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>filet z kurczaka z sosem kurkowym</li>
+                        <li>grillowany filet z kurczaka z lekkim sosem śmietanowym i nutą ziół</li>
+                        <li>pierś z kurczaka faszerowana szpinakiem i serem feta na sosie pomidorowym</li>
+                        <li>filet z kurczaka otulony boczkiem</li>
+                        <li>schab po szwajcarsku</li>
+                        <li>rolada schabowa z nadzieniem grzybowym</li>
+                        <li>schab nadziewany suszonymi pomidorami</li>
+                        <li>sznycel wieprzowy zapiekany z serem</li>
+                    </ul>
+                    <h5>Trzecie danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>schab pieczony podany z aromatycznym sosem z podgrzybków</li>
+                        <li>schab ze śliwką i sosem pieczeniowym</li>
+                        <li>schab szpikowany wędzonką</li>
+                        <li>karkówka z wyrazistym sosem chrzanowym</li>
+                        <li>rolada z indyka w sosie własnym</li>
+                        <li>płatki z indyka w sosie miodowo-pikantnym</li>
+                        <li>filet z kurczaka w sosie żurawinowym</li>
+                        <li>pierś z kurczaka z sosem kurkowym</li>
+                    </ul>
+                    <h5>Czwarte danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>potrawka z kurczaka z zielonym pieprzem i ryżem</li>
+                        <li>kurczak orientalny</li>
+                        <li>gulasz z indyka z pomidorami w warzywami</li>
+                        <li>forszmak dragomirowski ( szynka wieprzowa, kiełbasa , fasolka szparagowa )</li>
+                        <li>bogracz wieprzowy z kluseczkami ( mięso wieprzowe, warzywa, drobny makaron )</li>
+                        <li>schab z kiełkami w czerwonym winie</li>
+                        <li>wieprzowina w 5-ciu smakach</li>
+                        <li>kurczak curry</li>
+                    </ul>
+                    <h5>Piąte danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>barszcz czerwony z pasztecikami</li>
+                        <li>barszcz czerwony z pierogami</li>
+                        <li>zupa meksykańska na ostro</li>
+                    </ul>
+                    <h5>Dodatki do II i II dania<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>ziemniaki z wody</li>
+                        <li>ziemniaki zapiekane</li>
+                        <li>purre ziemniaczane</li>
+                        <li>kluski śląskie</li>
+                        <li>kopytka</li>
+                        <li>ryż</li>
+                    </ul>
+                    <h5>Surówki<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>wiosenna z sosem vinegret</li>
+                        <li>colesłav</li>
+                        <li>z kapusty pekińskiej</li>
+                        <li>z czerwonych buraków</li>
+                        <li>marchewka z jabłkiem</li>
+                        <li>bukiet warzyw z wody</li>
+                        <li>mini marchewka z groszkiem</li>
+                        <li>marchewka z groszkiem zasmażana</li>
+                        <li>buraczki na ciepło</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania zimne</h3>
+                    <h5>Trzy sałatki (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>sałatka tunezyjska ( kasza kus-kus, warzywa, pikle, świeża mięta )</li>
+                        <li>cezar ( sałata lodowa, jajka, grzanki, chrupiący boczek )</li>
+                        <li>orientalna ( makaron ryżowy, kurczak, warzywa, sezam, sos sojowy, )</li>
+                        <li>z kurczakiem grillowanym na sałacie lodowej, z grzankami i pomidorem</li>
+                        <li>z tuńczykiem na salacie lodowej ( lub z ryżem ) i warzywami</li>
+                        <li>prima (seler marynowany, ser żółty, szynka, ananas )</li>
+                        <li>meksykańska z pikantnym salami i warzywami</li>
+                        <li>grecka</li>
+                        <li>tradycyjna</li>
+                        <li>mix sałat z prażonymi pestkami dyni i słonecznika</li>
+                    </ul>
+                    <h5>Dwie galarety (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>schab po warszawsku</li>
+                        <li>rolada wieprzowa aromatyzowana brandy</li>
+                        <li>schab z owocami</li>
+                        <li>szynka pieczona z żurawiną</li>
+                        <li>teryna z kurczaka</li>
+                        <li>wiejski pasztet z galaretką żurawinową</li>
+                        <li>indyk w maladze</li>
+                        <li>piramidki drobiowe dekorowane świeżym koperkiem</li>
+                    </ul>
+                    <h5>Jedna ryba (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>teryna ze szczupaka</li>
+                        <li>ryba po grecku</li>
+                        <li>pstrąg w galarecie</li>
+                        <li>rolada z łososia wędzonego ze szpinakiem</li>
+                        <li>tymbaliki rybne dekorowane paluszkami krabowymi</li>
+                    </ul>
+                    <h5>Śledzie (dwa rodzeje do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>tradycyjny w oleju</li>
+                        <li>orientalny</li>
+                        <li>w śmietanie</li>
+                        <li>po węgiersku</li>
+                        <li>po kaszubsku</li>
+                        <li>w pierzynie</li>
+                        <li>po żydowsku</li>
+                    </ul>
+                    <h5>Zimne przekąski<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>mięsa pieczyste i wędliny tradycyjne</li>
+                        <li>jajka faszerowane pieczarkami i szczypiorem</li>
+                        <li>jajka z majonezem</li>
+                        <li>rolada serowa z warzywami i kurczakiem</li>
+                        <li>warzywa zielone</li>
+                        <li>marynaty</li>
+                        <li>pieczywo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menu 250zł -->
+    <section id="menuthree" class="menu_three">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1 class="text-center sub-title"><strong>Menu 250zł</strong></h1>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania gorące</h3>
+                    <h5>Zupy (dwie do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>flaki staropolskie</li>
+                        <li>rosół wiejski z kluseczkami i aromatyczną natką</li>
+                        <li>krem brokułowy z płatkami migdałowymi</li>
+                        <li>aksamitny krem z pomidorów z groszkiem ptysiowym , bitą śmietaną i natką</li>
+                        <li>krem z zielonego groszku z groszkiem ptysiowym i bita śmietaną</li>
+                        <li>zupa z grzybów leśnych z łazankami</li>
+                        <li>francuska zupa cebulowa z paluszkiem serowym</li>
+                        <li>krem z dyni</li>
+                    </ul>
+                    <h5>Drugie danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>grillowane kotleciki drobiowe z bekonem, zapieczone z serem</li>
+                        <li>schab po szwajcarsku</li>
+                        <li>polędwiczki wieprzowe podane na ragout warzywny</li>
+                        <li>polędwiczki wieprzowe zanurzone w sosie kurkowym</li>
+                        <li>polędwiczki wieprzowe w sosie z ananasa i imbiru ( lub żurawinowo – chrzanowym )</li>
+                        <li>filet z kurczaka faszerowany serem feta i szpinakiem na sosie z suszonych i świeżych pomidorów<br>
+                         z oliwkami</li>
+                        <li>grillowany filet z kurczaka z sosem serowym lub śmietanowym i z nutą ziół</li>
+                        <li>pieczone udo z kaczki podane na jabłkach w miodzie z cytryną</li>
+                        <li>soczysta pierś z kurczaka z sosem kurkowym</li>
+                    </ul>
+                    <h5>Trzecie danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>schab pieczony w aromatycznym sosie z podgrzybków ( lub pieczeniowym)</li>
+                        <li>pieczona karkówka z wyrazistym sosem chrzanowym</li>
+                        <li>rolada schabowa z sosem pieczeniowym</li>
+                        <li>medaliony schabowe z sosem śliwkowym</li>
+                        <li>filet z kurczaka z sosem złocistym ( cebula z kurkumą )</li>
+                        <li>rolada z indyka faszerowana suszonymi pomidorami</li>
+                        <li>pierś z indyka w sosie miodowo-pikantnym</li>
+                    </ul>
+                    <h5>Czwarte danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>gulasz myśliwski</li>
+                        <li>forszmak dragomirowski</li>
+                        <li>bogracz z kluseczkami</li>
+                        <li>schab z kiełkami w czerwonym winie</li>
+                        <li>wieprzowina w 5-ciu smakach</li>
+                        <li>kurczak curry</li>
+                        <li>kurczak orientalny</li>
+                        <li>gulasz po węgiersku</li>
+                        <li>boeuf strogonow</li>
+                        <li>królewska zupa z kluseczkami mięsnymi</li>
+                    </ul>
+                    <h5>Piąte danie (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>barszcz czerwony z pasztecikami</li>
+                        <li>barszcz czerwony z pierogami</li>
+                        <li>żurek z jajkiem i białą kiełbasą</li>
+                        <li>zupa meksykańska na ostro</li>
+                        <li>pikantna zupa gulaszowa</li>
+                    </ul>
+                    <h5>Dodatki do II i II dania<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>ziemniaki z wody</li>
+                        <li>ziemniaki zapiekane</li>
+                        <li>purre ziemniaczane</li>
+                        <li>kluski śląskie</li>
+                        <li>kopytka</li>
+                        <li>ryż z warzywami</li>
+                    </ul>
+                    <h5>Surówki<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>z kapusty pekińskiej</li>
+                        <li>colesłav</li>
+                        <li>wiosenna z sosem vinegret</li>
+                        <li>z czerwonych buraków</li>
+                        <li>mini marchewka z groszkiem, masłem i sezamem</li>
+                        <li>buraczki na ciepło tradycyjne</li>
+                        <li>buraczki na ciepło po kardynalsku ( wino czerwone,miód, sok pomarańczowy i sok z czarnej porzeczki )</li>
+                        <li>marchewka z groszkiem zasmażana</li>
+                        <li>bukiet warzyw z wody</li>
+                        <li>fasolka szparagowa</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania zimne</h3>
+                    <h5>Trzy sałatki (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>pomidor z mozzarellą, kaparami,oliwkami , bazylią i oliwą z oliwek</li>
+                        <li>z kurczakiem grillowanym na sałacie lodowej, z grzankami i pomidorem</li>
+                        <li>z wędzonego kurczaka z makaronem i ananasem</li>
+                        <li>meksykańska z ostrym salami</li>
+                        <li>mix sałat z prażonymi orzechami i pestkami dyni</li>
+                        <li>grecka</li>
+                        <li>brokułowa z serem żółtym, papryką i czosnkiem</li>
+                        <li>prima z selerem marynowanym, szynką , ananasem, serem żółtym</li>
+                        <li>gyros z kurczakiem, kapustą pekińską, warzywami i ogórkiem konserwowym</li>
+                        <li>orientalna z makaronem ryżowym, kurczakiem, sezamem, warzywami i sosem sojowym</li>
+                        <li>tradycyjna z zielonym groszkiem</li>
+                    </ul>
+                    <h5>Dwie galarety (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>szparagi w szynce</li>
+                        <li>rolada schabowa garnirowana suszonymi pomidorami</li>
+                        <li>rolada schabowa garnirowana pastą z pasztetu strasburskiego</li>
+                        <li>schab z owocami</li>
+                        <li>schab po warszawsku z musem chrzanowo – jajecznym</li>
+                        <li>schab ze śliwką</li>
+                        <li>indyk w maladze</li>
+                        <li>tymbaliki drobiowe dekorowane jajami przepiórczymi</li>
+                        <li>szynka pieczona z morelami</li>
+                        <li>pasztet z żurawiną lekko glazurowany</li>
+                    </ul>
+                    <h5>Jedna ryba (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>pstrąg w galarecie</li>
+                        <li>ryba po grecku</li>
+                        <li>łosoś w galarecie</li>
+                        <li>różyczki z łososia wędzonego</li>
+                        <li>teryna ze szczupaka</li>
+                        <li>tymbaliki rybne dekorowane krewetkami</li>
+                    </ul>
+                    <h5>Śledzie (dwa rodzeje do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>po kaszubsku</li>
+                        <li>po węgiersku na ostro z papryką i kukurydzą</li>
+                        <li>po królewsku z rodzynkami i orzechami</li>
+                        <li>tradycyjny</li>
+                        <li>po żydowsku z przyprawą piernikową, cebulą, jabłkiem i rodzynkami</li>
+                        <li>orientalny</li>
+                        <li>w śmietanie</li>
+                        <li>w pierzynie</li>
+                        <li>z musztardą francuską i kurkumą</li>
+                    </ul>
+                    <h5>Zimne przekąski<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>mięsa pieczyste i wędliny tradycyjne</li>
+                        <li>jaja dekorowane kawiorem</li>
+                        <li>jaja faszerowane pieczarkami i szczypiorem</li>
+                        <li>teryna z indyka</li>
+                        <li>polędwiczka drobiowa na liściach cykorii z sosem z serów pleśniowych</li>
+                        <li>warzywa świeże</li>
+                        <li>marynaty</li>
+                        <li>pieczywo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menu imprezy okolicznościowe -->
+    <section id="menufour" class="menu_four">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1 class="text-center sub-title"><strong>Imprezy okolicznościowe</strong></h1>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania gorące</h3>
+                    <h5>Zupy (dwie do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Rosół</li>
+                        <li>Flaki</li>
+                        <li>Krem z grzybów</li>
+                        <li>Krem z pomidorów z groszkiem ptysiowym</li>
+                        <li>Krem z brokułów</li>
+                        <li>Zupa cebulowa z paluszkiem serowym</li>
+                    </ul>
+                    <h5>Drugie danie<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Kurczak po kijowsku panierowany</li>
+                        <li>Panierowana pierś z kurczaka faszerowana serem</li>
+                        <li>Sznycel wieprzowy z serem</li>
+                        <li>Kurczak faszerowany szpinakiem na sosie pomidorowym</li>
+                        <li>Grillowany filet z kurczaka w ziołach</li>
+                        <li>Indyk z żurawiną</li>
+                        <li>Schab pieczony w sosie z podgrzybków</li>
+                        <li>Karkówka w sosie chrzanowym</li>
+                        <li>Schab nadziewany śliwakmi</li>
+                        <li>Wieprzowina szpikowana wędzonką</li>
+                    </ul>
+                    <h5>Trzecie danie<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Barszcz czerwony z pasztecikami</li>
+                    </ul>
+                    <h5>Dodatki do drugiego danie<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Ziemniaki zapiekane</li>
+                        <li>Ziemniaki z wody</li>
+                        <li>Purre ziemniaczane</li>
+                        <li>Ryż</li>
+                        <li>Kluski śląskie</li>
+                        <li>Kopytka</li>
+                    </ul>
+                    <h5>Surówki<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Wiosenna z sosem vinegret</li>
+                        <li>Z kapusty pekińskiej</li>
+                        <li>Z czerwonych buraków</li>
+                        <li>Coleslav</li>
+                        <li>Z marchwi z jabłkiem</li>
+                        <li>Warzywa z wody</li>
+                        <li>Mini marchewka z groszkiem</li>
+                        <li>Buraczki na ciepło</li>
+                        <li>Kapusta zasmażana</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-warning mb-4">Dania zimne</h3>
+                    <h5>Dwie sałatki (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Meksykańska</li>
+                        <li>Tradycyjna</li>
+                        <li>Z tuńczykiem</li>
+                        <li>Grecka</li>
+                        <li>Pomidor z mozzarellą</li>
+                        <li>Prima (ser żółty, ananas, seler marynowany, szynka)</li>
+                        <li>Brokułowa (czosnek, orzechy, fasola, ser żółty, papryka)</li>
+                        <li>Z kurczakiem grillowanym (na sałacie lodowej z grzankami i pomidorem)</li>
+                        <li>Z wędzonego kurczaka z makaronem i ananasem</li>
+                        <li>Mix sałat (z orzechami nerkowca i ziołami)</li>
+                    </ul>
+                    <h5>Galareta (do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Tymbaliki drobiowe</li>
+                        <li>Schab po warszawsku</li>
+                        <li>Schab z ananasem</li>
+                        <li>Schab w galarecie z owocami</li>
+                        <li>Indyk w maladze</li>
+                        <li>Szynka pieczona z morelami</li>
+                        <li>Rożki z szynki</li>
+                    </ul>
+                    <h5>Śledzie(dwa rodzaje do wyboru)<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Śledź w oleju</li>
+                        <li>Śledź w śmietanie</li>
+                        <li>Śledź w pierzynie</li>
+                        <li>Śledź po węgiersku</li>
+                        <li>Śledź z serem i warzywam</li>
+                        <li>Śledź po królewsku</li>
+                    </ul>
+                    <h5>Zimne przekąski<span class="text-warning">:</span></h5>
+                    <ul class="mb-4 menu_cart">
+                        <li>Półmisek wędlin i mięs pieczystych</li>
+                        <li>Rolada z łososia wędzonego ze szpinakiem</li>
+                        <li>Jaja faszerowane</li>
+                        <li>Jaja z majonezem</li>
+                        <li>Półmiski zielone</li>
+                        <li>Marynaty</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stopka -->
+    <footer class="text-white footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="my-4 text-white">Skontaktuj się z nami<span class="text-warning">:</span></h3>
+                    <ul class="list-unstyled pb-5 list-start">
+                        <li>
+                            <i class="fa fa-phone text-warning pr-2" aria-hidden="true"></i>43 827-41-68
+                        </li>
+                        <li>
+                            <i class="fa fa-mobile text-warning pr-2" aria-hidden="true"></i>603-866-222
+                        </li>
+                        <li>
+                            <i class="fa fa-mobile text-warning pr-2" aria-hidden="true"></i>501-700-550
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope text-warning pr-2" aria-hidden="true"></i>biuro@dwor-kamionacz.pl
+                        </li>
+                        <li>
+                            <i class="fa fa-clock-o text-warning pr-2" aria-hidden="true"></i>P.-Pt. 8:00-16:00
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="my-4 text-white">Warto odwiedzić<span class="text-warning">:</span></h3>
+                    <ul class="list-unstyled list-start">
+                        <li><span class="text-warning">></span><a href="aktualnosci.html">Aktualności</a></li>
+                        <li><span class="text-warning">></span><a href="menu.html">Menu</a></li>
+                        <li><span class="text-warning">></span><a href="oferta.html">Oferta</a></li>
+                        <li><span class="text-warning">></span><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <iframe class="py-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.2920821294606!2d18.710905315776053!3d51.67279647966273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471af71d79f3580b%3A0x53ceb998c2ceff6c!2sDw%C3%B3r+Kamionacz!5e0!3m2!1spl!2spl!4v1535729681168" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Prawa autorskie -->
+    <section class="text-center text-white copyright">
+        <div class="container">
+            <div class="py-3">
+                &copy; Copyright 2022 Wszelskie prawa zastrzeżone
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
